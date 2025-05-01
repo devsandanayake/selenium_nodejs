@@ -1,0 +1,47 @@
+[2025-05-01T14:42:24.421Z] 🚀 Starting Testing.    SQA - IT21265174...
+
+[2025-05-01T14:42:25.601Z] user login test started
+[2025-05-01T14:42:26.221Z] 🔔 Alert text: Login successful
+[2025-05-01T14:42:26.318Z] ✅ Login test passed! Redirected to /home
+[2025-05-01T14:42:26.318Z] ----------------------------------
+
+[2025-05-01T14:42:26.318Z] staff member registration test started
+[2025-05-01T14:42:27.023Z] ✅ Staff registration passed. Alert: undefined
+[2025-05-01T14:42:27.023Z] ----------------------------------
+
+[2025-05-01T14:42:27.033Z] file upload test started
+[2025-05-01T14:42:27.033Z] 🔍 Starting File Upload Test...
+[2025-05-01T14:42:27.096Z] Uploading file...
+[2025-05-01T14:42:27.128Z] Scrolled to the "Submit" button...
+[2025-05-01T14:42:27.134Z] Clicking the "Submit" button...
+[2025-05-01T14:42:32.250Z] ✅ File uploaded and processed successfully!
+[2025-05-01T14:42:32.251Z] ----------------------------------
+
+[2025-05-01T14:42:32.251Z] user role management test started
+[2025-05-01T14:42:32.252Z] 🔍 Starting User Role Management Page Test...
+[2025-05-01T14:42:32.327Z] ✅ Navigated to User Management page.
+[2025-05-01T14:42:32.753Z] 📝 Test Case 1: Search for user "devin"
+[2025-05-01T14:42:33.826Z] ✅ Found 1 user(s) with "IT21265174@my.sliit.lk"
+[2025-05-01T14:42:33.826Z] 📝 Test Case 2: Edit User Role
+[2025-05-01T14:42:33.889Z] ✅ Changed role to Examiner.
+[2025-05-01T14:42:34.098Z] 🔔 Alert after role update: User role updated successfully
+[2025-05-01T14:42:35.100Z] 📝 Test Case 3: Delete User "devin"
+[2025-05-01T14:42:35.144Z] ✅ Clicked delete button.
+[2025-05-01T14:42:35.349Z] 🔔 Alert after deletion: User deleted successfully
+[2025-05-01T14:42:37.413Z] ✅ User "IT21265174@my.sliit.lk" successfully deleted and no longer visible.
+[2025-05-01T14:42:37.413Z] ✅ User Management Page Test Completed.
+[2025-05-01T14:42:37.413Z] ----------------------------------
+
+[2025-05-01T14:42:37.414Z] student login OTP test started
+[2025-05-01T14:42:37.414Z] 🔍 Starting Student Login OTP Test...
+[2025-05-01T14:42:37.466Z] ✅ Navigated to Student Login page.
+[2025-05-01T14:42:37.471Z] 📝 Test Case 1: Valid Email
+[2025-05-01T14:42:37.533Z] ✅ OTP sent to the email.
+[2025-05-01T14:42:37.533Z] 📝 Test Case 2: Invalid Email
+[2025-05-01T14:42:37.785Z] ✅ Error alert displayed for invalid email: "Please enter a valid SLIIT Students email"
+[2025-05-01T14:42:37.786Z] ✅ Student Login OTP Test Completed.
+[2025-05-01T14:42:37.786Z] ----------------------------------
+
+[2025-05-01T14:42:37.787Z] 
+✅ All tests finished.
+
